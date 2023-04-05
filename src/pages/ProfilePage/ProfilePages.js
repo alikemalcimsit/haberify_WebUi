@@ -7,7 +7,7 @@ export default function ProfilePages() {
 
    
     <Navbar></Navbar>
-    <div className="flex w-full pl-52 mt-4 pr-32 ">
+    <div className="flex w-full pl-52 mt-4 pr-52 ">
       <ProfilePage></ProfilePage>
     </div>
     </div>

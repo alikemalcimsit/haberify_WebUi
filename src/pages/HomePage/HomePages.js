@@ -8,7 +8,7 @@ export default function HomePages() {
     <div>
 
 <Navbar></Navbar>
-    <div className="flex w-full pl-52 mt-4 pr-32 ">
+    <div className="flex w-full pl-52 mt-4 pr-52 ">
         <SideBar></SideBar>
       <HomePage></HomePage>
     </div>

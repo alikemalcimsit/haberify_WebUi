@@ -5,9 +5,8 @@ export default function NewsCard(props) {
 const [liked, setliked] = useState(false)
   return (
     <div>
-       <div className="  h-[550px] w-[900px]  mb-4  ">
-      <img alt="" src="https://api.lorem.space/image/album?" className=" h-full   w-full  rounded-3xl object-cover"></img>
-      <div className="absolute py-7  px-2 top-20 right-32 mr-2 h-[535px] w-[420px]  backdrop-blur-lg bg-white/30 rounded-3xl ">
+       <div className="  h-[550px] w-[800px]  mb-4  ">
+       <div className=" py-7  px-2 z-10 mx-52 my-2 right-0  absolute h-[535px] w-[380px]  backdrop-blur-lg bg-white/30 rounded-3xl ">
      <div> <h4 className="font-bold  pb-5">Lorem Ipsum</h4>
       <p className="font-normal h-96  text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at viverra dui. Aenean efficitur maximus neque non faucibus. Morbi faucibus eget arcu non fermentum. Nunc convallis dictum erat, non elementum orci pharetra et. Fusce accumsan magna pretium maximus dapibus. Pellentesque ut pellentesque sapien, id porta lacus. Ut eu convallis erat. Nam cursus turpis vehicula dui finibus rutrum. Morbi metus ligula, convallis eget hendrerit eget, molestie in ex.
 Quisque bibendum turpis non dapibus dapibus. Nulla efficitur semper sapien id pharetra. Nunc a diam...</p></div>
@@ -26,6 +25,10 @@ Quisque bibendum turpis non dapibus dapibus. Nulla efficitur semper sapien id ph
     </div>
   
       </div>
+        <img alt="" src="https://api.lorem.space/image/album?" className=" h-full   w-full  rounded-3xl object-cover"></img>
+       
+     
+   
     
       </div>
     </div>

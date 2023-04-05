@@ -11,11 +11,11 @@ export default function ProfileBanner() {
     <div className='bg-white rounded-2xl py-2 px-2 cursor-pointer'><Icon name="verifyicon" size={24}></Icon></div>
 
 </div>
-<div className='mr-64 ml-4'>
+<div className='mr-48 ml-4'>
     <h1 className='text-white text-xl'>Doğukan Özgür Yılmaz</h1>
     <a className='text-white font-light'>@dogukanozgurylmz</a>
 </div>
-<div className='mr-56  '>
+<div className='mr-52  '>
     <img src='https://api.lorem.space/image/face?' className='rounded-3xl  mt-12  h-[112px] w-[112px] object-cover '></img>
     <div className='flex justify-center  py-6 '>
     <Icon name="locationicon" size="24"></Icon>
