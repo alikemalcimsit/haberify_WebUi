@@ -6,16 +6,16 @@ export default function RecomendedAccount() {
     <h3 className='text-lg my-4'>Güvenli Hesaplar</h3>
     <ul>
         <li className='flex gap-4 align-middle mb-4 items-center cursor-pointer'> 
-          <span ><img className='rounded-full h-8 w-8' src="https://api.lorem.space/image/face?"></img></span>
+          <span ><img className='rounded-full h-8 w-8 object-cover' src="https://api.lorem.space/image/face?"></img></span>
           <a className="text-base font-medium text-text-color">dogukanozgurylmz</a></li>
         <li  className='flex gap-4 align-middle mb-4 items-center cursor-pointer'> 
-          <span><img className='rounded-full h-8 w-8'  src="https://api.lorem.space/image/face?"></img></span>
+          <span><img className='rounded-full h-8 w-8 object-cover'  src="https://api.lorem.space/image/face?"></img></span>
           <a className="text-base font-medium  text-text-color">dogukanozgurylmz</a></li>
         <li  className='flex gap-4 align-middle mb-4 items-center cursor-pointer'> 
-          <span><img className='rounded-full h-8 w-8'  src="https://api.lorem.space/image/face?"></img></span>
+          <span><img className='rounded-full h-8 w-8 object-cover'  src="https://api.lorem.space/image/face?"></img></span>
           <a className="text-base font-medium text-text-color">dogukanozgurylmz</a></li>
         <li  className='flex gap-4 align-middle mb-4 items-center cursor-pointer'> 
-          <span><img className='rounded-full h-8 w-8'   src="https://api.lorem.space/image/face?"></img></span>
+          <span><img className='rounded-full h-8 w-8 object-cover'   src="https://api.lorem.space/image/face?"></img></span>
           <a className="text-base font-medium text-text-color">dogukanozgurylmz</a></li>
         
     </ul>

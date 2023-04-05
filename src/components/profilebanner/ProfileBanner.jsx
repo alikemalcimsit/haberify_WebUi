@@ -1,14 +1,14 @@
 import React from 'react'
-import { Icon } from '../../Icons'
+import { Icon } from '../../assets/icons/Icons'
 
 export default function ProfileBanner() {
   return (
     <div>
            <div className='w-full bg-profilebg h-[240px] flex rounded-br-3xl items-center align-middle '>
 <div className='ml-8 '>
-    <div className='bg-white rounded-2xl py-2 px-2 mb-2'><Icon name="settingsicon" size={24}></Icon></div>
-    <div className='bg-white rounded-2xl py-2 px-2 mb-2'><Icon name="mail" size={24}></Icon></div>
-    <div className='bg-white rounded-2xl py-2 px-2'><Icon name="verifyicon" size={24}></Icon></div>
+    <div className='bg-white rounded-2xl py-2 px-2 mb-2 cursor-pointer'><Icon name="settingsicon" size={24}></Icon></div>
+    <div className='bg-white rounded-2xl py-2 px-2 mb-2 cursor-pointer'><Icon name="mail" size={24}></Icon></div>
+    <div className='bg-white rounded-2xl py-2 px-2 cursor-pointer'><Icon name="verifyicon" size={24}></Icon></div>
 
 </div>
 <div className='mr-64 ml-4'>

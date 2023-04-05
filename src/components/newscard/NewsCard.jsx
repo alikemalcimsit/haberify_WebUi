@@ -1,7 +1,8 @@
-import React from 'react'
-import { Icon } from '../../Icons'
+import React, { useState } from 'react'
+import { Icon } from '../../assets/icons/Icons'
 
-export default function NewsCard() {
+export default function NewsCard(props) {
+const [liked, setliked] = useState(false)
   return (
     <div>
        <div className="  h-[550px] w-[900px]  mb-4  ">
@@ -12,13 +13,13 @@ export default function NewsCard() {
 Quisque bibendum turpis non dapibus dapibus. Nulla efficitur semper sapien id pharetra. Nunc a diam...</p></div>
       <div className="flex  justify-between  items-center mt-10   ">
     <div className="flex align-middle items-center">
-    <span ><img alt="" className='rounded-full h-8 w-8 mr-2'  src="https://api.lorem.space/image/face?"></img></span>
+    <span ><img alt="" className='rounded-full h-8 w-8 mr-2 object-cover'  src="https://api.lorem.space/image/face?"></img></span>
           <a className="text-base font-medium text-black">dogukanozgurylmz</a>
       </div>
       <div className="flex align-middle items-center gap-2">
-      <Icon name="likeicon" size="20"></Icon>
+      <a onClick={()=>{setliked(!liked)}} className='cursor-pointer'>{liked ? <Icon name="likedicon" size="20"></Icon> : <Icon name="likeicon" size="24"></Icon>}</a>
       <a>192</a>
-      <Icon name="commenticon" size="24"></Icon>
+      <a className='cursor-pointer' onClick={()=>{props.setOpenComment(!props.openComment)}}><Icon name="commenticon" size="24"></Icon></a>
       <a>6</a>
       <Icon name="shareicon" size="20"></Icon>
       </div>
